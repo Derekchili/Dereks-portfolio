@@ -8,32 +8,100 @@
     <link rel="stylesheet" href="./assets/style.css" />
     <title>Portfolio</title>
   </head>
-  <!-- hello -->
   <body>
+    <!-- Header with name and nav links -->
     <header>
-      <h1>Derek Chilson</h1>
+      <div><h1>Derek Chilson</h1></div>
       <nav>
-        <a href="">home</a>
-        <a href="">Projects</a>
+        <ul>
+          <li>
+            <a href="#my-info">About Me</a>
+            <a href="#my-work">Work</a>
+            <a href="#contact-me">Contact Me</a>
+          </li>
+        </ul>
       </nav>
     </header>
-    <main>
-      <section>
-        <img src="./derek.jpeg" alt="Picture of me and my daughter" />
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      </section>
-      <section id="second-section">
-        <form>
-          <label>Contact Me</label>
-          <input />
-          <textarea></textarea>
-        </form>
-        <section id="resume-section">
-          <h2>Download my resume</h2>
-          <p>text describing why you should download my resume</p>
-          <button>Click Me!</button>
-        </section>
-      </section>
-    </main>
+    <!-- Hero image area -->
+    <section class="hero">
+      <div class="hero-image">
+        <img
+          src="../images/derek.jpeg"
+          alt="Picture of a cliff and water below."/>
+        <div class="hero-text">
+          <h1>Dad Bod Extraordinaire</h1>
+        </div>
+      </div>
+    </section>
+    <!-- about me section starting here -->
+    <section class="my-info" id="my-info">
+      <div class="title">
+        <h2>About Me</h2>
+      </div>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, doloribus. Deserunt suscipit eius veniam nobis magnam assumenda, incidunt id voluptatum ipsa quisquam voluptatem corporis quidem dignissimos architecto repellendus doloribus ratione necessitatibus tempora quia accusantium voluptas?
+          <br /><br />
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat veritatis, nam reprehenderit iste quo natus iure nostrum numquam fugiat autem doloremque inventore temporibus hic magnam adipisci ea pariatur quae! Necessitatibus nostrum eveniet repellendus aperiam laudantium.
+        </p>
+      </div>
+    </section>
+    <!-- work history section -->
+    <section class="my-work" id="my-work">
+      <div class="title"><h2>Work</h2></div>
+      <div class="projects-grid-wrapper">
+        <div class="projects-grid">
+          <a href="#" target="_blank" class="project-one">
+            <div class="project-label">
+              <h3>Project1</h3>
+              <p>Lorem ipsum.</p>
+            </div>
+          </a>
+
+          <a href="#" target="_blank" class="project-two">
+            <div class="project-label">
+              <h3>Project2</h3>
+              <p>Lorem ipsum.</p>
+            </div>
+          </a>
+
+          <a href="#" target="_blank" class="project-three">
+            <div class="project-label">
+              <h3>Project3</h3>
+              <p>Lorem ipsum.</p>
+            </div>
+          </a>
+
+          <a href="#" target="_blank" class="project-four">
+            <div class="project-label">
+              <h3>Project4</h3>
+              <p>Lorem ipsum.</p>
+            </div>
+          </a>
+
+          <a href="#" target="_blank" class="project-five">
+            <div class="project-label">
+              <h3>Project5</h3>
+              <p>Lorem ipsum.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- footer with nav links -->
+    <footer id="contact-me">
+      <div class="title"><h2>Contact Me</h2></div>
+      <div class="content-wrapper">
+          <ul>
+            <li>
+              <a href="mailto:derekchili@gmail.com">Resume</a>
+              <a href="mailto:derekchili@gmail.com">Email</a>
+              <a href="http://github.com/derekchili" target="_blank">Github</a>
+              <a href="https://www.linkedin.com/in/derek-chilson-64a77b7/"target="_blank">Linkedin</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

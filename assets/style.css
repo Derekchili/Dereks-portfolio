@@ -12,22 +12,20 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     color: var(--main);
     background-color: var(--bright);
 }
-/* getting header set up */
+/* getting header set up goes below here */
 header {
     background-color: var(--main);
     display: flex;
-    padding: 18px;
+    padding: 10px;
     justify-content: space-between;
     flex-wrap: wrap;
    
 }
-h1 {
-    box-shadow: 4px 4px 4px #6fd6f6(0,0,0,0.7);
-}
+
 header nav ul {
     display: flex;
     justify-content: center;
@@ -35,11 +33,11 @@ header nav ul {
     list-style: none;
 }
 header nav {
-    margin: 18px;
+    margin: 22px;
 }
 header h1 {
     color: var(--bright);
-    font-size: 37px;
+    font-size: 42px;
     padding: 8px;
     border: 4px solid var(--bright);
     font-weight: bolder;
@@ -55,7 +53,8 @@ header nav ul li a {
     padding: 10px;
     margin: 15px 15px 0 0;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 35px;
+    font-weight: bold;
     color: var(--bright);
 }
 header nav ul li a:hover {
@@ -63,10 +62,10 @@ header nav ul li a:hover {
     color: aliceblue;
     border-radius: 12px;
 }
-/* starting the hero section here */
+/* starting the hero section below this line */
 .hero {
     background-image: url("../images/hero.jpg");
-    height: 420px;
+    height: 400px;
     background-size: cover;
     align-items: center;
     justify-content: space-around;
@@ -75,18 +74,18 @@ header nav ul li a:hover {
     
 }
 .hero img {
-    height: 250px;
+    height: 240px;
     border: solid .1px var(--bright);
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 30px;
     color: black;
     font-weight: bolder;
 }
-/* about me section starting my-info class */
+/* about me section starting title that will display on the left side my-info class below line */
 .title {
-    min-height: 100%;
+    min-height: 70%;
     text-align: right;
     padding-right: 35px;
     min-width: 18%;
@@ -95,25 +94,25 @@ h1 {
 .title h2 {
     font-size: 40px;
     border-right: 6px solid black;
-    min-height: 100%;
+    min-height: 85%;
     padding-right: 35px;
     text-align: right; 
 }
 .my-info p {
-    font-size: 23px;
-    padding: 0 25px;
+    font-size: 25px;
+    padding: 5% 5px;
     line-height: 1.5;
     width: 95%;
 }
 .my-info {
     background-color: var(--second);
-    color: antiquewhite;
+    color: var(--bright);
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    padding-top: 25px;
+    padding-top: 22px;
 }
-/* my work and projects nothing in there now, but will add later */
+/* my work and projects nothing in there now, but will add later hopefully */
 .my-work {
     padding: 35px 0;
     display: flex;
@@ -123,41 +122,33 @@ h1 {
 .my-work h2 {
     color: var(--bright);
 }
-.my-work h3 p {
-    border: solid var(--bright);
-}
 
-.project {
-    border: solid;
-    color: var(--bright);
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    text-decoration: none;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.5;
-}
 .projects-grid-wrapper {
-    grid-template-columns: repeat(5, 1);
-    grid-template-rows: 40vh 30vh 30vh;
+    grid-template-rows: 50vh 25vh 25vh;
     width: 100%;
     height: 700px;
     display: flex;
     justify-content: center;
-    
-
 }
+
 .projects-grid {
     width: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* grid-template-rows: repeat(4, 1fr); */
     gap: 16px;
 }
+.project-label {
+    border: 1px solid var(--bright);
+    width: 27%;
+    background-color: var(--main);
+    color: var(--bright);
+    padding: 10px;
+}
 
-.projects:hover {
-    opacity: 0.8;
+.project-label:hover {
+    background: linear-gradient(#4f5b66, #6fd6f6);
+    color: black;
+    border-radius: 12px;
 }
 .project-one {
     border: 5px solid black;
@@ -165,38 +156,45 @@ h1 {
     grid-row: span 1;
     background-image: url("../images/project-one.jpg");
     background-position: 54% 35%;
+    display: flex;
+    align-items:flex-end;
+    text-decoration: none;
 }
 .project-two {
     border: 5px solid black;
     background-image: url("../images/project-two.jpg");
     background-position: 20% 20%;
-    
+    display: flex;
+    align-items:flex-end;
+    text-decoration: none;
 }
 .project-three {
     border: 5px solid black;
     background-image: url("../images/project-three.jpg");
     background-position: 15% 53%;
+    display: flex;
+    align-items:flex-end;
+    text-decoration: none;
 }
 .project-four {
     border: 5px solid black;
     background-image: url("../images/project-four.jpg");
     background-position: 60% 45%;
+    display: flex;
+    align-items:flex-end;
+    text-decoration: none;
 }
 .project-five {
     border: 5px solid black;
     background-image: url("../images/project-five.jpg");
     background-position: 50% 50%;
-}
-.project-label {
-    border: 1px solid var(--bright);
-    /* border-radius: 10%; */
-    width: 27%;
-    background-color: var(--main);
-    color: var(--bright);
-    padding: 10px;   
+    display: flex;
+    align-items:flex-end;
+    text-decoration: none;
 }
 
-/* starting on the footer area */
+
+/* starting on the footer area below this line */
 footer {
     display: flex;
     justify-content: space-between;
@@ -237,7 +235,7 @@ footer ul li a:hover {
     border-radius: 12px;
 }
 
-/* media for the screen sizes when they get smaller or larger */
+/* media for the screen sizes when they get smaller or larger and trying to adjust the borders from right to bottom */
 
 
 @media screen and (max-width: 768px) {
@@ -286,8 +284,8 @@ footer ul li a:hover {
             padding: 20px 0;
         }
         .projects-grid-wrapper {
-            width: 100%;
             padding: 7px;
+            width: 100%;
         }
         .projects-grid {
             width: 100%;

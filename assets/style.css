@@ -22,8 +22,7 @@ header {
     display: flex;
     padding: 10px;
     justify-content: space-between;
-    flex-wrap: wrap;
-   
+    flex-wrap: wrap;  
 }
 
 header nav ul {
@@ -193,7 +192,6 @@ h1 {
     text-decoration: none;
 }
 
-
 /* starting on the footer area below this line */
 footer {
     display: flex;
@@ -221,8 +219,8 @@ footer ul {
 }
 footer ul li {
     font-weight: 700;
-
 }
+
 footer ul li a {
     text-decoration: none;
     color: var(--main);
@@ -234,10 +232,7 @@ footer ul li a:hover {
     color: aliceblue;
     border-radius: 12px;
 }
-
 /* media for the screen sizes when they get smaller or larger and trying to adjust the borders from right to bottom */
-
-
 @media screen and (max-width: 768px) {
     .hero text {
         font-size: 29px;

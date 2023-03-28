@@ -4,11 +4,13 @@ Portfolio with my resume
 
 Wanted to design a webpage with my Portfolio so I can update it as I go with my projects, resume (not up to date) and contact information.
 
+spent a while tweeking excalidraw to get as close as I could to what I wanted.
+
 I built this because I want to practice building webpages with content and make it useful on all platforms.
 
-I learned a lot building this page, first just how to layout the HTML so it makes sense. Working on the CSS is what took the most time styling the page to look more user friendly. Now that i'm close I am able to refactor a bunch of code to simplfy it more.
+I learned a lot building this page, first just how to layout the HTML, 3 hours later it changed a few times to look better so it makes sense. Working on the CSS is what took the most time styling the page to look more user friendly. Spent many hours because I'm still not getting it well enough to just do it, lot of selecting different flex-box values and getting it to work. I'm sure my code has too many things but once I learn more I can update and refactor later.
 
-I looked at a few examples of projects that were finished and started from there. I googled a lot to see how to flexbox, color schemes and background images work. Also used mdn and w3schools a lot to find gradient, hover and grid-template-rows.
+I looked at a few examples of portfolios that were finished, and used a screentshot of the mockup. I googled a lot to see how to flexbox, color schemes and background images work. Also used mdn and w3schools a lot to find gradient, hover and grid-template-rows.
 
 Deployed this to Github pages so I could see the live website working. This is the link to the project.
 

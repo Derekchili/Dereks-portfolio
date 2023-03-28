@@ -4,7 +4,7 @@ Portfolio with my resume
 
 Wanted to design a webpage with my Portfolio so I can update it as I go with my projects, resume (not up to date) and contact information.
 
-spent a while tweeking excalidraw to get as close as I could to what I wanted.
+I spent a while mocking up an idea on excalidraw to get as close as I could to what I wanted the website to look like.
 
 I built this because I want to practice building webpages with content and make it useful on all platforms.
 

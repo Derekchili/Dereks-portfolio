@@ -14,7 +14,7 @@ I looked at a few examples of portfolios that were finished, and used a screents
 
 Deployed this to Github pages so I could see the live website working. This is the link to the project.
 
-https://derekchili.github.io/portfolio/
+https://derekchili.github.io/Dereks-portfolio/
 
 I went to https://digitalsynopsis.com/design/beautiful-color-palettes-combinations-schemes/ to get some good color palettes for the layout of the webpage.
 
